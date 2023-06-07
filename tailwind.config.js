@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
-        "./resources/**/*.blade.php",
+        "./*/**/*.blade.php",
         "./resources/**/*.js",
         "./resources/**/*.vue",
     ],
@@ -23,6 +23,9 @@ module.exports = {
                     950: "#121212",
                 }
             },
+            fontSize: {
+                "2xs": ".625rem"
+            }
         },
     },
     plugins: [],
