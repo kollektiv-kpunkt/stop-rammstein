@@ -1,7 +1,7 @@
 <x-app-layout :title="__('sr.landing.title')">
 
     <div class="sr-container sr-container__md">
-        <div class="sr-header-visual flex justify-center items-center drop-shadow-2xl">
+        <div class="sr-header-visual flex justify-center items-center drop-shadow-2xl relative">
             <img src="/images/header.jpg" alt="Picture of Rammstein Singer with his eyes crossed out." class="absolute top-0 left-0 w-full h-full object-cover">
         </div>
         <div class="sr-lead sr-card text-xl leading-normal sr-section">
