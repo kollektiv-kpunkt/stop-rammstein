@@ -33,7 +33,7 @@ return [
             "fr" => <<<EOD
             Je suis d'accord que Campax me tienne au courant. <a class="underline" href="https://www.sp-ps.ch/fr/politique-de-protection-des-donnees/" target="_blank">Plus d'informations dans notre politique de confidentialité</a>.
             EOD,
-        ]
+        ],
         "brava" => [
             "de" => <<<EOD
             Ich bin einverstanden, dass mich BRAVA auf dem Laufenden hält. <a class="underline" href="https://www.brava-ngo.ch/de/datenschutz" target="_blank">Mehr dazu in unseren Datenschutzbestimmungen</a>.
