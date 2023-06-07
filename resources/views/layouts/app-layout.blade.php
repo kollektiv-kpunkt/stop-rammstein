@@ -16,7 +16,9 @@
     </head>
 
     <body class="antialiased">
-        {{$slot}}
+        <div id="sr-main-content" class="py-4 md:py-8">
+            {{$slot}}
+        </div>
         @vite("resources/js/app.js")
     </body>
 </html>
