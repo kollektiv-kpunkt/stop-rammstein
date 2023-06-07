@@ -1,6 +1,5 @@
 <div class="sr-signup-form sr-section" id="petition">
     <div class="sr-signup-form__container">
-        <button class="sr-signup-form__close-form w-full bg-secondary py-2 lg:hidden mt-4">{{__("sr.form.close")}} <i class="icofont-ui-close ml-2"></i></button>
         <div class="fdb-signup-form__inner">
             <h2 class="text-xl md:text-3xl font-bold mb-4">{{__("sr.form.title")}}</h2>
             <form action="/supporters" method="POST" class="sr-form mt-6">
