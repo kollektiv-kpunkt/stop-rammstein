@@ -6,7 +6,7 @@
         </div>
         <div class="sr-lead sr-card text-xl leading-normal sr-section">
             <h2 class="text-xl italic mb-1">{{__("sr.landing.subtitle")}}</h2>
-            <h1 class="text-2xl md:text-5xl font-black text-bg-950 mb-6">{{__("sr.landing.title")}}</h1>
+            <h1 class="text-3xl md:text-5xl font-black text-bg-950 mb-6">{{__("sr.landing.title")}}</h1>
             <p>{!! __("sr.landing.lead") !!}</p>
             <a href="#open-petition" class="sr-button !bg-bg-950 w-full mt-5">{{__("sr.landing.petition.sign")}} <i class="icofont-duotone icofont-apply"></i></a>
         </div>
