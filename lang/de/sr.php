@@ -3,13 +3,13 @@
 return [
 
     /**
-     * Language Lines for Stop Rammstein petition¨
+     * Language Lines for Stop Rammstein petition
      *
      */
 
     "site" => [
-        "title" => "Kein Fussbreit dem Sexismus!",
-        "url" => "https://kriegsgewinne.ch",
+        "title" => "Unterschreibe unsere Petition",
+        "url" => "https://stop-rammstein.ch",
     ],
     "landing" => [
         "title" => "Rammstein Konzert absagen",
