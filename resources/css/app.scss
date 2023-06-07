@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./containers.scss";
+@import "./elements.scss";
+@import "./typo.scss";
+
+html {
+    @apply bg-bg-800 text-white;
+}

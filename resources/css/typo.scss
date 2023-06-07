@@ -1,0 +1,7 @@
+@import "./fonts/fonts.scss";
+
+html {
+    font-family: "Futura-PT";
+    font-size: clamp(16px, 1.5vw, 22px);
+    line-height: 1.35;
+}
