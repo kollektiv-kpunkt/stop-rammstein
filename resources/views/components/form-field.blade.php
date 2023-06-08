@@ -56,7 +56,7 @@ $id = $attributes->get('id') ?? "{$name}_{$fieldId}";
             <div class="flex">
                 <input type="hidden" name="{{$name}}" value="0">
                 <input type="{{$type}}" name="{{$name}}" id="{{$id}}" placeholder="{{$placeholder}}" {{$checked ? " checked" : ""}} class="sr-sr-form__field__input" value="1" {{$required ? "required" : ""}} />
-                <label for="{{$id}}" class="sr-sr-form__field__label text-2xs">{!! $label !!}</label>
+                <label for="{{$id}}" class="sr-sr-form__field__label text-2xs !text-white">{!! $label !!}</label>
             </div>
             @break
     @endswitch

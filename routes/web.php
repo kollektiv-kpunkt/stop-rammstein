@@ -24,6 +24,11 @@ Route::get("s/{source}", function($source) {
     return redirect("/");
 });
 
+Route::get("l/{locale}", function($locale) {
+    setcookie("locale", $locale, time() + (86400 * 5), "/");
+    return redirect("/");
+});
+
 Route::post('supporters', [SupporterController::class, 'storeFromPetition'])->name('supporters.storeFromPetition');
 
 Route::get("/verify/{token}", function($token){

@@ -61,13 +61,12 @@
                 padding-left: 1.25em;
                 text-indent: -1em;
                 cursor: pointer;
-                @apply text-primary;
 
                 &::before {
                     content: '';
                     font-family: IcoFont;
                     margin-right: 0.25rem;
-                    border: 0.15em solid theme('colors.primary');
+                    border: 0.15em solid theme('colors.white');
                     width: 0.75em;
                     height: 0.75em;
                     display: inline-block;

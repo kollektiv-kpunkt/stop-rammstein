@@ -18,14 +18,17 @@ class SetLocale
      */
     public function handle(Request $request, Closure $next)
     {
-        app()->setLocale("de");
-        return $next($request);
         $available_locales = ["de", "fr"];
-
-        if (array_key_exists($request->getHost(), $domains)) {
-            app()->setLocale($domains[$request->getHost()]);
+        $browser_lang = substr($request->server("HTTP_ACCEPT_LANGUAGE"), 0, 2);
+        if (isset($_COOKIE["locale"]) && in_array($_COOKIE["locale"], $available_locales)) {
+            $locale = $_COOKIE["locale"];
+        } else if (in_array($browser_lang, $available_locales)) {
+            $locale = $browser_lang;
         } else {
+            $locale = "de";
         }
-        session()->put("locale", app()->getLocale());
+        setcookie("locale", $locale, time() + (86400 * 5), "/");
+        app()->setLocale($locale);
+        return $next($request);
     }
 }
