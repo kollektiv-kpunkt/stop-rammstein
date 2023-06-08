@@ -49,6 +49,14 @@ return [
             "fr" => <<<EOD
             Je suis d'accord que le cfd me tienne au courant. <a class="underline" href="https://www.cfd-ch.org/de/agbs-und-datenschutz-140.html" target="_blank">Plus d'informations dans notre politique de confidentialité</a>.
             EOD,
+        ],
+        "feministen" => [
+            "de" => <<<EOD
+            Ich bin einverstanden, dass mich der Verein «die Feministen» auf dem Laufenden hält. <a class="underline" href="https://feministen.ch/datenschutz/" target="_blank">Mehr dazu in unseren Datenschutzbestimmungen</a>.
+            EOD,
+            "fr" => <<<EOD
+            Je suis d'accord que le Verein «die Feministen» me tienne au courant. <a class="underline" href="https://feministen.ch/datenschutz/" target="_blank">Plus d'informations dans notre politique de confidentialité</a>.
+            EOD,
         ]
     ]
 ];
