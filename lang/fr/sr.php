@@ -9,7 +9,7 @@ return [
 
     "site" => [
         "title" => "Signe notre pétition",
-        "url" => "https://stop-rammstein.ch",
+        "url" => "https://www.stop-rammstein.ch",
     ],
     "landing" => [
         "title" => "Les concerts de Rammstein doivent être annulés !",

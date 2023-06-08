@@ -9,7 +9,7 @@ return [
 
     "site" => [
         "title" => "Unterschreibe unsere Petition",
-        "url" => "https://stop-rammstein.ch",
+        "url" => "https://www.stop-rammstein.ch",
     ],
     "landing" => [
         "title" => "Rammstein-Konzert absagen",
