@@ -12,7 +12,7 @@ return [
         "url" => "https://www.stop-rammstein.ch",
     ],
     "landing" => [
-        "title" => "Rammstein-Konzert absagen",
+        "title" => "Rammstein-Konzerte absagen",
         "subtitle" => "Lindemann & Co. stoppen:",
         "lead" => "Die Vorwürfe gegen den Rammstein-Leadsänger Till Lindemann bezüglich sexualisierter Gewalt müssen ernst genommen werden! Wir fordern den Konzertveranstalter auf, die Rammstein-Konzerte in Bern abzusagen! Der Veranstalter muss die Betroffenen ernst nehmen und die Sicherheit der Konzertteilnehmer*innen sicherstellen.<br><b class=\"font-bold\">Unterschreibe die Petition!</b>",
         "petition" => [
@@ -83,7 +83,7 @@ return [
     ],
     "share" => [
         "title" => "Teile unseren offenen Brief!",
-        "sharetitle" => "Lindemann & Co. stoppen: Rammstein-Konzert absagen!",
+        "sharetitle" => "Lindemann & Co. stoppen: Rammstein-Konzerte absagen!",
         "text" => "Hoi👋\nDer Frontsänger von Rammstein, Till Lindemann, ist mit harten Vorwürfen von sexualisierter Gewalt konfrontiert. Und trotzdem soll er in Bern auftreten dürfen. Ich habe drum gerade diesen Brief unterschrieben, denn die Konzerte müssen abgesagt werden. Unterschreibst du auch?📝\n👉 https://www.stop-rammstein.ch",
         "tweet" => "Der Frontsänger von Rammstein, Till Lindemann, ist mit harten Vorwürfen von sexualisierter Gewalt konfrontiert. Ich habe drum gerade diesen Brief unterschrieben, denn die Konzerte in Bern müssen abgesagt werden. Unterschreibst du auch?📝\n#StopRammstein 👉 https://www.stop-rammstein.ch",
         "buttons" => [

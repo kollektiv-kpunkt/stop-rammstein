@@ -6,7 +6,7 @@
 <p>Si tu ne sais pas pourquoi tu as reçu cet e-mail, tu peux simplement l'ignorer.</p>
 <p>Merci encore pour ton soutien !</p>
 <p>
-    Le comité «Rammstein-Konzert absagen» <br />
+    Le comité «Rammstein-Konzerte absagen» <br />
     <a href="{{__("sr.site.url")}}">{{__("sr.site.url")}}</a>
 </p>
 
