@@ -102,8 +102,6 @@ class SupporterController extends Controller
             "status" => ""
         ]);
         $validated["email_verification_token"] = Str::random(32);
-        if (env("SUPP_EMAIL_VERIFICATION")) {
-        }
         $supporter = Supporter::create($validated);
         $supporter->sendEmailVerificationNotification();
         $request->session()->flash('success', true);

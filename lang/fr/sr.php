@@ -80,4 +80,17 @@ return [
             "tohome" => "Retour"
         ]
     ],
+    "share" => [
+        "title" => "Partage notre lettre ouverte !",
+        "sharetitle" => "Stop à Lindemann & Co. : Les concerts de Rammstein doivent être annulés !",
+        "text" => "Hoi👋\nLe chanteur principal du groupe Rammstein, Till Lindemann, est confronté à de sévères accusations de violences sexuelles. Et pourtant, il devrait pouvoir se produire à Berne. Je viens de signer cette lettre. Signes-tu aussi ?📝\n👉 https://www.stop-rammstein.ch",
+        "tweet" => "Le chanteur principal du groupe Rammstein, Till Lindemann, est confronté à de sévères accusations de violences sexuelles. Et pourtant, il devrait pouvoir se produire à Berne. Je viens de signer cette lettre. Signes-tu aussi ?📝\n#StopRammstein 👉 https://www.stop-rammstein.ch",
+        "buttons" => [
+            "whatsapp" => "Partager sur WhatsApp",
+            "telegram" => "Partager sur Telegram",
+            "facebook" => "Partager sur Facebook",
+            "twitter" => "Partager sur Twitter",
+            "email" => "Partager par e-mail",
+        ]
+    ]
 ];

@@ -19,6 +19,7 @@
         </div>
         <x-progress-bar />
         <x-form />
+        <x-social-share/>
         <div class="sr-container sr-container__sm sr-section !mt-12 !ml-0 !p-0">
             @foreach (__("sr.landing.petition.content") as $paragraph)
                 <p>{!! $paragraph !!}</p>

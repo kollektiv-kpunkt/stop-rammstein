@@ -24,7 +24,7 @@ return [
             "sign" => "Jetzt unterschreiben!",
         ]
     ],
-        "form" => [
+    "form" => [
         "title" => "Hilf mit, damit wir unser Ziel erreichen!",
         "defaultPrivacy" => "Ich bin einverstanden, dass mich das Komitee auf dem Laufenden hält. <a class=\"underline\" href=\"/privacy\">Mehr dazu in unseren Datenschutzbestimmungen</a>.",
         "fields" => [
@@ -81,4 +81,17 @@ return [
             "tohome" => "Zur Startseite"
         ]
     ],
+    "share" => [
+        "title" => "Teile unseren offenen Brief!",
+        "sharetitle" => "Lindemann & Co. stoppen: Rammstein-Konzert absagen!",
+        "text" => "Hoi👋\nDer Frontsänger der Band Rammstein, Till Lindemann, ist mit harten Vorwürfen von sexualisierter Gewalt konfrontiert. Und trotzdem soll er in Bern auftreten dürfen. Ich habe drum gerade diesen Brief unterschrieben. Unterschreibst du auch?📝\n👉 https://www.stop-rammstein.ch",
+        "tweet" => "Der Frontsänger von Rammstein, Till Lindemann, ist mit harten Vorwürfen von sexualisierter Gewalt konfrontiert. Und trotzdem soll er in Bern auftreten dürfen. Ich habe drum gerade diesen Brief unterschrieben. Unterschreibst du auch?📝\n#StopRammstein 👉 https://www.stop-rammstein.ch",
+        "buttons" => [
+            "whatsapp" => "Auf WhatsApp teilen",
+            "telegram" => "Auf Telegram teilen",
+            "facebook" => "Auf Facebook teilen",
+            "twitter" => "Auf Twitter teilen",
+            "email" => "Per E-Mail teilen"
+        ]
+    ]
 ];
