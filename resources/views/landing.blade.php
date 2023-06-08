@@ -24,5 +24,6 @@
                 <p>{!! $paragraph !!}</p>
             @endforeach
         </div>
+        <x-logos />
     </div>
 </x-app-layout>
