@@ -68,6 +68,7 @@ class Supporter extends Model
         }
         if ($supporter && $supporter->email_verification_token == $token) {
             $supporter->email_verified_at = now();
+            $supporter->status = "active";
             $supporter->save();
             return true;
         } else {
