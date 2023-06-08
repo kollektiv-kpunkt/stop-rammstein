@@ -57,7 +57,7 @@ return [
         ],
         "open" => "Signer maintenant !",
         "close" => "Schliessen",
-        "submit" => "Unterschreiben",
+        "submit" => "Signer maintenant",
         "successmessage" => "Merci beaucoup pour ta signature ! Tu recevras sous peu un e-mail avec un lien de confirmation. Merci de cliquer sur ce lien pour confirmer ta signature.",
         "errormessage" => "Une erreur est survenue. Veuillez réessayer !"
     ],
