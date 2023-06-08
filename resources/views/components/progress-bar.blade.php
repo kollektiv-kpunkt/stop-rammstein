@@ -41,7 +41,7 @@ $progress = $progress > 100 ? 100 : $progress;
 
 <div class="sr-progress-bar relative pt-4" data-progress="{{$progress}}" data-goal={{$supporterCount}}>
     <div class="sr-progress-bar__icon mt-2 mb-1 opacity-0">
-        <i class="icofont-duotone icofont-last block w-fit" style="transform: translateX(-100%)"></i>
+        <i class="icofont-duotone icofont-last block w-fit" style="transform: translateX(calc(-100% + 0.5em))"></i>
     </div>
     <div class="sr-progress-bar__wrapper h-6 rounded-full w-full bg-white flex p-1">
         <div class="sr-progress-bar__inner w-0 h-full bg-primary rounded-full flex justify-center items-center">
