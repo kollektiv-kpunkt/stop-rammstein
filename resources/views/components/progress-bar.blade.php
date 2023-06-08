@@ -1,5 +1,8 @@
 <?php
 $supporterCount = supporterCount();
+if ($supporterCount < 20) {
+    $supporterCount = 20;
+}
 
 /**
  * @param $supporterCount
