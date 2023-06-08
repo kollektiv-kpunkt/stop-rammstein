@@ -11,5 +11,5 @@
 </p>
 
 <p style="margin-top: 3rem">
-    Si tu ne peux pas cliquer sur le lien, copie-le ici et colle-le dans ton navigateur : {{__("sr.site.url")}}/verify/{{$supporter->email_verification_token}}?email={{$supporter->email}}
+    Si tu ne peux pas cliquer sur le lien, copie-le ici et colle-le dans ton navigateur : {{__("sr.site.url")}}/verify/{{$supporter->email_verification_token}}?id={{$supporter->id}}
 </p>
