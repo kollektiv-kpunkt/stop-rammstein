@@ -32,7 +32,7 @@ Route::get("l/{locale}", function($locale) {
 Route::post('supporters', [SupporterController::class, 'storeFromPetition'])->name('supporters.storeFromPetition');
 
 Route::get("/verify/{token}", function($token){
-    $verified = Supporter::verify($_GET["email"], $token);
+    $verified = Supporter::verify($_GET["id"], $token);
     if ($verified) {
         return view("verification.verified");
     } else {

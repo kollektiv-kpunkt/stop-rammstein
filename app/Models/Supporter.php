@@ -56,13 +56,13 @@ class Supporter extends Model
     /**
      * Verify the email address of a supporter
      *
-     * @param string $email
+     * @param string $id
      * @param string $token
      * @return bool
      */
-    public static function verify($email, $token)
+    public static function verify($id, $token)
     {
-        $supporter = self::where("email", $email)->first();
+        $supporter = self::where("id", $id)->first();
         if (!$supporter) {
             return false;
         }
