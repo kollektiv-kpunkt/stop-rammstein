@@ -10,7 +10,7 @@
             <title>{{__("sr.site.title")}}</title>
         @endif
 
-        {{-- <x-OG /> --}}
+        <x-OG />
 
         @vite("resources/css/app.scss")
     </head>
