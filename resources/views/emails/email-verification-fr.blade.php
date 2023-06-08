@@ -9,3 +9,7 @@
     Le comité «Rammstein-Konzert absagen» <br />
     <a href="{{__("sr.site.url")}}">{{__("sr.site.url")}}</a>
 </p>
+
+<p style="margin-top: 3rem">
+    Si tu ne peux pas cliquer sur le lien, copie-le ici et colle-le dans ton navigateur : {{__("sr.site.url")}}/verify/{{$supporter->email_verification_token}}?email={{$supporter->email}}
+</p>
