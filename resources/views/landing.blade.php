@@ -3,7 +3,7 @@
     <div class="sr-container sr-container__md">
         <x-lang-link />
         @if (request()->session()->get('success') === true)
-            <div class="sr-page-heroine__alert--success bg-green-200 border-green-700 border text-green-700 font-bold p-4 mb-6 sticky top-0">
+            <div class="sr-page-heroine__alert--success bg-green-200 border-green-700 border text-green-700 font-bold p-4 mb-6 sticky top-0 z-50">
                 <p>{{__("sr.form.successmessage")}}</p>
             </div>
         @endif
