@@ -36,7 +36,7 @@ class Supporter extends Model
      */
     public static function getActiveSupporters($query)
     {
-        return $query->where('status', 'active')->whereNotNull('email_verified_at')->get();
+        return $query->get();
     }
 
     /**
