@@ -57,6 +57,14 @@ return [
             "fr" => <<<EOD
             Je suis d'accord que le Verein «die Feministen» me tienne au courant. <a class="underline" href="https://feministen.ch/datenschutz/" target="_blank">Plus d'informations dans notre politique de confidentialité</a>.
             EOD,
+        ],
+        "femstreik" => [
+            "de" => <<<EOD
+            Ich bin einverstanden, dass das feministische Streikkollektiv Bern auf dem Laufenden hält. <a class="underline" href="https://www.frauen-streiken.ch/impressum-datenschutzerklaerung/" target="_blank">Mehr dazu in unseren Datenschutzbestimmungen</a>.
+            EOD,
+            "fr" => <<<EOD
+            Je suis d'accord que le collectif de grève féministe de Berne me tienne au courant. <a class="underline" href="https://www.frauen-streiken.ch/impressum-datenschutzerklaerung/" target="_blank">Plus d'informations dans notre politique de confidentialité</a>.
+            EOD,
         ]
     ]
 ];
