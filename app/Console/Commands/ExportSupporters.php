@@ -51,8 +51,8 @@ class ExportSupporters extends Command
     private function exportToCsv($filename)
     {
         $datafields = $this->getSupporterDataFields();
-        $headers = array_merge(["id", "email"], $datafields, ["source"]);
-        $supporters = \App\Models\Supporter::all(['id', 'email', 'data', 'source']);
+        $headers = array_merge(["id", "email"], $datafields, ["source", "optin"]);
+        $supporters = \App\Models\Supporter::all(['id', 'email', 'data', 'source', 'optin']);
         $file = fopen(storage_path($filename), 'w');
         fputcsv($file, $headers);
         foreach ($supporters as $supporter) {
@@ -61,6 +61,7 @@ class ExportSupporters extends Command
                 $row[] = $supporter->data[$datafield] ?? '';
             }
             $row[] = $supporter->source;
+            $row[] = $supporter->optin;
             fputcsv($file, $row);
         }
         fclose($file);
