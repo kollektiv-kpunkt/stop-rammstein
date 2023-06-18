@@ -11,7 +11,7 @@ if ($supporterCount < 20) {
  */
 function setGoal($supporterCount, $goal = 500 ) {
     if ($goal >= 5000) {
-        return 10000;
+        return 7500;
     }
     if ($supporterCount >= $goal * 0.75) {
         return setGoal($supporterCount, $goal + 500);
